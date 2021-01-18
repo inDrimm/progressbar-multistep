@@ -14,3 +14,104 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* PDF VIEWER */
+#pdfviewer {
+  width: 600px;
+  margin: 0 auto;
+  height: 600px;
+}
+
+#pdfviewer .viewer-layout-toolbar {
+  background: #000;
+  color: #fff;
+  height: 45px;
+}
+
+#pdfviewer .viewer-icon {
+  stroke: #fff;
+  stroke-width: 3px;
+}
+
+#pdfviewer .viewer-zoom-popover-target-arrow {
+  border-color: rgb(255 255 255 / 90%) transparent transparent;
+}
+
+#pdfviewer .viewer-menu-item-label,
+#pdfviewer .viewer-search-popover-label,
+#pdfviewer .viewer-menu,
+#pdfviewer .viewer-menu .viewer-icon {
+  color: #000;
+  stroke: #000;
+}
+
+/* END PDF VIEWER */
+
+/* Accordion PDF COMPARE */
+.accordion-header {
+  font-family: "Poppins";
+  font-size: 15px;
+}
+
+/* ENDAccordion PDF COMPARE */
+/* Progress */
+.k-stepper{
+  margin-top: 1.5rem;
+}
+
+.k-step-indicator{
+  background-color:white !important;
+  border-color:#0FA49E !important;
+  width:50px !important;
+  height:50px !important;
+}
+
+.k-step-list-horizontal {
+flex-direction: row;
+margin-top: -12px !important;
+}
+
+.k-step-indicator-text{
+  color:black;
+}
+
+.k-i-warning{
+  border-radius: 50%;
+  background-color:Red;
+  font-size:1.3rem;
+  border-color:red !important;
+}
+
+.k-i-check{
+  color:#0FA49E;
+  border-radius: 50%;
+  font-weight: 900;
+  font-size:1.3rem
+}
+
+.k-button{
+  background-color: white;
+  border:1px solid #0FA49E
+}
+
+.btn-next{
+  background-color:#0FA49E;
+  color:white;
+}
+/* End Progress */
+
+._hsN1w {
+  background-color: #0fa49e !important;
+  border: 1px solid #0fa49e !important;
+  color: white;
+  text-decoration: none;
+}
+
+._2_g61 {
+  margin-top: 3rem;
+}
