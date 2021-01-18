@@ -18,7 +18,6 @@ export default function App() {
     { label: "Resume Data", isValid: undefined },
     { label: "Lihat Dokumen", isValid: undefined },
     { label: "Account", isValid: undefined },
-    { label: "Account", isValid: undefined },
   ]);
 
   const lastStepIndex = steps.length - 1;
