@@ -8,18 +8,17 @@ import "@phuocng/react-pdf-viewer/cjs/react-pdf-viewer.css";
 export const LihatDokumen = (
   <div>
     <Card className="mt-2" style={{ width: "1250px", marginLeft: "-65px" }}>
-      <Card.Header
-        style={{
-          textAlign: "center",
-          color: "#0fa49e",
-          marginBottom: "0.5rem",
-        }}
-      >
-        <b>DOCUMENT COMPARISON</b>
-      </Card.Header>
-      {/*   */}
       <Form.Row>
         <Col xs={12} md={6}>
+          <Card.Header
+            style={{
+              textAlign: "center",
+              color: "#0fa49e",
+              marginBottom: "0.5rem",
+            }}
+          >
+            <b>DOCUMENT ASAL</b>
+          </Card.Header>
           <Card className="mb-2">
             <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.5.207/build/pdf.worker.js">
               <div id="pdfviewer">
@@ -32,6 +31,15 @@ export const LihatDokumen = (
           </Card>
         </Col>
         <Col xs={12} md={6} style={{ borderLeft: "2px solid #0fa49e" }}>
+          <Card.Header
+            style={{
+              textAlign: "center",
+              color: "#0fa49e",
+              marginBottom: "0.5rem",
+            }}
+          >
+            <b>DOCUMENT COMPARISON</b>
+          </Card.Header>
           <Card className="mb-2 mr-1">
             <Accordion defaultActiveKey="0">
               <Accordion.Toggle as={Card.Header} className="accordion-header" eventKey="1">

@@ -9,16 +9,21 @@ export default function Header() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link activeClassName="active" href="/">
-              Progress Bar 1
-            </Nav.Link>
-            <Nav.Link activeClassName="active" href="/home3">
-              Progress Bar 2
-            </Nav.Link>
-            <Nav.Link activeClassName="active" href="/home2">
+            <NavDropdown title="Progress Bar" id="basic-nav-dropdown" style={{ backgroundColor: "yellow" }}>
+              <NavDropdown.Item activeClassName="active" href="/">
+                Progress Bar 1
+              </NavDropdown.Item>
+              <NavDropdown.Item activeClassName="active" href="/home3">
+                Progress Bar 2
+              </NavDropdown.Item>
+              <NavDropdown.Item activeClassName="active" href="/home7">
+                Progress Bar 3
+              </NavDropdown.Item>
+            </NavDropdown>
+            <Nav.Link activeClassName="active" href="/home2" style={{ backgroundColor: "pink" }}>
               PDF View
             </Nav.Link>
-            <NavDropdown title="Validation" id="basic-nav-dropdown">
+            <NavDropdown title="Validation" id="basic-nav-dropdown" style={{ backgroundColor: "#2dd1d6" }}>
               <NavDropdown.Item activeClassName="active" href="/home4">
                 Validation
               </NavDropdown.Item>

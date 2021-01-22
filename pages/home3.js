@@ -1,4 +1,4 @@
-import Progress3 from "../components/Progress/Progress3";
+import Progress3 from "../components/Progress/ProgressBar2";
 
 export default function home3() {
   return (

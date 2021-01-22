@@ -1,4 +1,4 @@
-import Home4 from "../components/Progress/Progress4";
+import Home4 from "../components/Progress/Validation1";
 
 export default function home4() {
   return (

@@ -4,7 +4,7 @@ import StepProgressBar from "react-step-progress";
 import "react-step-progress/dist/index.css";
 import { Card, Row, Col, Form } from "react-bootstrap";
 import { FaCheckCircle, FaTimesCircle } from "react-icons/fa";
-import { ResumeData } from "../Progress/content/resumeData";
+import { ResumeData } from "./content/resumeData";
 
 export default function MonitProgress() {
   const selectOptions = {

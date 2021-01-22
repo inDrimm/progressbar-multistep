@@ -1,5 +1,5 @@
 import React from "react";
-import Progress2 from "../components/Progress/Progress2";
+import Progress2 from "../components/Progress/PDFViewer";
 
 export default function home2() {
   return (
