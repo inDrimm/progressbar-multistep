@@ -40,6 +40,9 @@ export default function Progress5() {
     <div>
       <Layout>
         <Card>
+          <Card.Header style={{ textAlign: "center", marginTop: "15px" }}>
+            <h4>Validation 2</h4>
+          </Card.Header>
           <Card.Body>
             <form>
               <Row>

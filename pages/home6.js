@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Home6 from "../components/Progress/Validatin3";
+import Home6 from "../components/Progress/Validation3";
 import FormSuccess from "../components/Progress/content2/FormSuccess";
 
 export default function home6() {

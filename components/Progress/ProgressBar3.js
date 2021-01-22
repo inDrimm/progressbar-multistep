@@ -1,7 +1,8 @@
 import React, { useState, Component } from "react";
-
+import Layout from "../Layout";
 import { FaUser, FaLock, FaEnvelope } from "react-icons/fa";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Card, Row, Col, Form } from "react-bootstrap";
 import Loki from "react-loki";
 import UserForm from "../Progress/ProgressBar3/UserFrom";
 import PasswordForm from "../Progress/ProgressBar3/PasswordForm";
@@ -52,9 +53,14 @@ export default class ComplexDemo extends Component {
     ];
 
     return (
-      <div className="Demo">
-        <Loki steps={complexSteps} onNext={this._mergeValues.bind(this)} onBack={this._mergeValues.bind(this)} onFinish={this._finishWizard.bind(this)} noActions />
-      </div>
+      <Layout>
+        <Card.Header style={{ textAlign: "center", marginTop: "15px" }}>
+          <h4>Progress Bar 3</h4>
+        </Card.Header>
+        <div className="Demo">
+          <Loki steps={complexSteps} onNext={this._mergeValues.bind(this)} onBack={this._mergeValues.bind(this)} onFinish={this._finishWizard.bind(this)} noActions />
+        </div>
+      </Layout>
     );
   }
 }

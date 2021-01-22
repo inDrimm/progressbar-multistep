@@ -171,6 +171,9 @@ export default function MonitProgress() {
   return (
     <div>
       <Layout>
+        <Card.Header style={{ textAlign: "center", marginTop: "15px" }}>
+          <h4>Progress Bar 2</h4>
+        </Card.Header>
         <StepProgressBar
           startingStep={0}
           onSubmit={onFormSubmit}

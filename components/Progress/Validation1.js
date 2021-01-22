@@ -18,6 +18,9 @@ export default function Progress4() {
     <div>
       <Layout>
         <Card>
+          <Card.Header style={{ textAlign: "center", marginTop: "15px" }}>
+            <h4>Validation 1</h4>
+          </Card.Header>
           <Card.Body>
             <form onSubmit={handleSubmit(onSubmit)}>
               <Row>

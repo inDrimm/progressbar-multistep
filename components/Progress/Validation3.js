@@ -14,10 +14,8 @@ export default function Progress6({ submitForm }) {
     <div>
       <Layout>
         <Card>
-          <Card.Header style={{ textAlign: "center" }}>
-            <b>
-              <h2>FORM VALIDASI</h2>
-            </b>
+          <Card.Header style={{ textAlign: "center", marginTop: "15px" }}>
+            <h4>Validation 3</h4>
           </Card.Header>
           <Card.Body style={{ display: "center" }}>
             <form onSubmit={handleSubmit}>
